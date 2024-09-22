@@ -2,16 +2,16 @@ function Card() {
 
     const country = [
         {
-            name: 'France',
-            capital: 'Paris',
-            population: 30,
-            language: 'Français',
-        },
-        {
             name: 'Tunisia',
             capital: 'Tunis',
             population: 12,
             language: 'Arabic',
+        },
+        {
+            name: 'France',
+            capital: 'Paris',
+            population: 68,
+            language: 'Français',
         },
     ];
 
