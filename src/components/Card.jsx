@@ -1,4 +1,4 @@
-function Card() {
+const Card = () => {
 
     const country = [
         {
@@ -7,12 +7,12 @@ function Card() {
             population: 12,
             language: 'Arabic',
         },
-        {
-            name: 'France',
-            capital: 'Paris',
-            population: 68,
-            language: 'Français',
-        },
+        // {
+        //     name: 'France',
+        //     capital: 'Paris',
+        //     population: 68,
+        //     language: 'Français',
+        // },
     ];
 
     const handleClick = (e, countryName) => {
